@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&display=swap');
+
+/* font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive; */
+/* font-family: 'Nerko One', cursive;
+font-family: 'Pacifico', cursive; */
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.navitems ul {
+    display: flex;
+    margin: auto;
+    /* justify-content: center; */
+
+}
+
+.navitems ul li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.navitems ul li a {
+    text-decoration: none;
+    color: rgb(245, 171, 0);
+    font-size: x-large;
+    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Pacifico', cursive;  */
+
+
+}
+
+.logo img {
+
+    width: 200px;
+    height: 40px;
+}
+
+hr.style1 {
+    border-top: 1px solid #8c8b8b;
+}
+
+.container {
+    width: 80vw;
+    height: 40vw;
+    background-color: rgb(19, 19, 19);
+    margin: auto;
+    border-radius: 50px;
+}
+
+.container h4 {
+    margin-left: 22px;
+    padding: 10px;
+    /* text-align: center; */
+    font-family: 'Orbitron', sans-serif;
+
+    
+    font-size: x-large;
+    color: rgb(245, 171, 0);
+
+}
+textarea {
+    width: 70%;
+    height: 250px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    background-color: #000000;
+    font-size: 16px;
+    resize: none;
+    color: white;
+    margin-left: 40px;
+  }
+  .buttons{
+    margin : 5px 38px;
+  }
+  .buttons button{
+    padding: 5px;
+    font-size: larger;
+    border-radius:14px;
+    background-color: rgb(198, 146, 14);
+    cursor: pointer;
+  }
+  .buttons button:hover{
+    background-color: blueviolet
+  }
+  
